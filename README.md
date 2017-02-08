@@ -1,0 +1,2 @@
+# Analysis-of-Denial-of-Memory-Service
+This is my first project. It contains two algorithms that will stress your RAM and measure it's impact on multicore CPU's perormance. Stream and RDARRAY are the name of two applications. Use a compiler like dev-c++ to make a .exe file of both the programs and execute both the .exe files together. If prompted with an error while compiling, go to tools->compiler options and enter '-Wl,--stack,10000777216' command in while calling the compiler section. This will increase the default stack size to 10000777216 bytes. 
